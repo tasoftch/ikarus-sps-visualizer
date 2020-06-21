@@ -1,0 +1,21 @@
+{
+  "name": "ikarus/sps-visualizer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Abplanalp",
+      "email": "info@tasoft.ch"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ikarus\\SPS\\Visualizer\\" : "src"
+    }
+  },
+  "require" : {
+    "php": "^7.2",
+    "ikarus/sps": "^1.0",
+    "ikarus/sps-server": "^0.1",
+    "ikarus/sps-client": "^0.1"
+  }
+}
